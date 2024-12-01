@@ -30,4 +30,9 @@ urlpatterns = [
     path('InquiryDatabase/', include('InquiryDatabase.urls')),
     path('StatusOfInquiry/', include('StatusOfInquiry.urls')),
     path('totalinquiries/', include('TotalInquiryList.urls')),
+   
+    path('reporting/', include('Reporting.urls')),
+    path('Employee/', include('Employee.urls')),
+    
+    path('Costholder/', include('Costholder.urls')),
 ]
