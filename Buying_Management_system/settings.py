@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'rest_framework.authtoken',
 
 
     'DatabaseDesign',
@@ -51,6 +52,8 @@ INSTALLED_APPS = [
     'Reporting',
     'Employee',
     'Costholder',
+
+    'users',
 ]
 
 MIDDLEWARE = [
